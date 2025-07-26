@@ -1,0 +1,21 @@
+/* frontend/src/Spinner.css */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 4px solid #ccc;
+  border-top-color: #333;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
