@@ -28,3 +28,38 @@ coverage/
 
 # OS generated files
 Thumbs.db
+
+# Ignore all package-related files
+frontend/package.json
+frontend/package-lock.json
+backend/package.json
+backend/package-lock.json
+
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Python files or backend build output (if using Django/Flask/etc.)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+*.env
+.env.*
+
+# Ignore all uploads EXCEPT existing ones
+backend/uploads/*
+!backend/uploads/*.mp4
